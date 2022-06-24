@@ -1,0 +1,7 @@
+/tmp
+/.idea
+/bulk_upload_spreadsheets
+.DS_Store
+config/environment.yml
+/docs
+/zephyr_test_report.sh
