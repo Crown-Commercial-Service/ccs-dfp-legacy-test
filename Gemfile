@@ -2,7 +2,7 @@
 
 source 'http://rubygems.org'
 
-gem 'capybara', '< 3.18'
+gem 'capybara', '>= 2.18.0', '< 3.18'
 gem 'cucumber'
 gem 'rspec'
 gem 'selenium-webdriver'
@@ -20,9 +20,9 @@ gem 'cucumber-rails', require: false
 gem 'database_cleaner'
 gem 'eyes_selenium'
 gem 'minitest-spec-rails'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.9'
 gem 'parallel_tests'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.6'
 gem 'rails_helper'
 gem 'require_all'
-gem 'roo', '~> 2.4'
+gem 'roo', '~> 2.8', '>= 2.8.3'
