@@ -9,7 +9,7 @@ gem 'selenium-webdriver'
 gem 'site_prism'
 # gem 'chromedriver-helper'
 gem 'capybara-screenshot'
-gem 'git'
+gem 'git', '>= 1.13.0'
 gem 'pry'
 gem 'webdrivers'
 
